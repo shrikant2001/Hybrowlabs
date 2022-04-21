@@ -4,6 +4,8 @@ D = defaultdict(int)
 string = input()
 
 for s in string:
+    if s == ' ': #skip whitespace
+        continue
     if D[s]:    #if the key exits
         D[s] += 1
     else:       #creatinng key on its first occurence
