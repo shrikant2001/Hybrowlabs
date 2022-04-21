@@ -1,0 +1,9 @@
+Note:
+
+Due to the small size of code and functionality.
+I have avoided the use of Redux and diffrent component folder
+for the user's card component.
+
+I have built the assignment within App.jsx in 40 lines.
+with the use of useState and Axios, which i felt was sufficient.
+
